@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAEChat", "SAEChat\SAEChat.csproj", "{D5F126AD-FD72-42EE-98CC-C25C485E2326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{9EA9E654-0790-44EE-A769-028E1ED9496F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{B575BC3B-0ED8-45CA-9477-7A3263EA8562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5F126AD-FD72-42EE-98CC-C25C485E2326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F126AD-FD72-42EE-98CC-C25C485E2326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F126AD-FD72-42EE-98CC-C25C485E2326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F126AD-FD72-42EE-98CC-C25C485E2326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA9E654-0790-44EE-A769-028E1ED9496F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA9E654-0790-44EE-A769-028E1ED9496F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA9E654-0790-44EE-A769-028E1ED9496F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA9E654-0790-44EE-A769-028E1ED9496F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B575BC3B-0ED8-45CA-9477-7A3263EA8562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B575BC3B-0ED8-45CA-9477-7A3263EA8562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B575BC3B-0ED8-45CA-9477-7A3263EA8562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B575BC3B-0ED8-45CA-9477-7A3263EA8562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E58E6D04-61FE-44B0-A8EB-B2B03313B79A}
+	EndGlobalSection
+EndGlobal
