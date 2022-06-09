@@ -99,7 +99,7 @@ namespace ChatClient
                     else if (!client.nameRequestPending)
                     {
                         Console.WriteLine("Please enter the display name you wish to use while chatting. Names must:\n - Be at least 3 characters long\n - Contain at least one alphanumeric (A-Z / 0-9) character");
-                        client.nameRequest = nameSetRequest + "_" + Console.ReadLine();
+                        client.nameRequest = nameSetRequest + "|" + Console.ReadLine();
                         byte[] outboundData = System.Text.Encoding.ASCII.GetBytes(client.nameRequest);
                         skt.SendTo(outboundData, destnEndPoint);
                         Console.WriteLine("");

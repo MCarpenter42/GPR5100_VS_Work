@@ -55,7 +55,7 @@ namespace ChatServer
                             string clientName = "";
                             server.connectedClients.TryGetValue(senderIPEndpnt, out clientName);
                             Console.WriteLine("Re-establishing connection with client:\n   IPv4 address: " + senderIPEndpnt.Address + "\n   Port: " + senderIPEndpnt.Port + "\n   Name: " + clientName + "\n");
-                            byte[] confirmData = System.Text.Encoding.ASCII.GetBytes(reconnectConfirm + "_" + clientName);
+                            byte[] confirmData = System.Text.Encoding.ASCII.GetBytes(reconnectConfirm + "|" + clientName);
                             skt.SendTo(confirmData, (IPEndPoint)senderEndpnt);
                         }
                         else
